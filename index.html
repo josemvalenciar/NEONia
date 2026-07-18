@@ -1,1013 +1,1013 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO y Optimización Semántica (Estándar Google Search Console) -->
-    <title>NEONia | Automatización de Procesos e Ingeniería Digital de Alta Fidelidad</title>
-    <meta name="description" content="Eliminamos las tareas manuales y repetitivas de tu equipo mediante flujos automáticos. Creamos portales web de alto rendimiento en tiempo récord de forma 100% remota.">
-    <meta name="keywords" content="automatización de negocios, desarrollo web no-code, ahorro de tiempo empresarial, eficiencia operativa, consultoría de flujos de trabajo, lanzar startup rápido">
-    
-    <!-- CDN de Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts de Alta Gama (Sora y Plus Jakarta Sans) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO y Optimización Semántica (Estándar Google Search Console) -->
+    <title>NEONia | Automatización de Procesos e Ingeniería Digital de Alta Fidelidad</title>
+    <meta name="description" content="Eliminamos las tareas manuales y repetitivas de tu equipo mediante flujos automáticos. Creamos portales web de alto rendimiento en tiempo récord de forma 100% remota.">
+    <meta name="keywords" content="automatización de negocios, desarrollo web no-code, ahorro de tiempo empresarial, eficiencia operativa, consultoría de flujos de trabajo, lanzar startup rápido">
+    
+    <!-- CDN de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts de Alta Gama (Sora y Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Configuración del Tema y Paleta de Contraste WCAG Compliant -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        dark: {
-                            deep: '#030712',       /* Fondo absoluto para contraste de grado cinematográfico */
-                            card: '#080C16',       /* Contenedores con profundidad visual */
-                            element: '#0F1526',    /* Elementos de formulario e inputs */
-                            border: '#1F2937'      /* Líneas finas elegantes */
-                        },
-                        neon: {
-                            cyan: '#00F0FF',       /* Acento cian (Glow y Call to Actions) */
-                            magenta: '#FF007F',    /* Acento magenta (Glow secundario) */
-                            emerald: '#10B981',    /* Estado de éxito y confirmación */
-                            purple: '#8B5CF6'      /* Degradados intermedios */
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
-                        display: ['"Sora"', 'system-ui', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'cyan-glow': '0 0 25px rgba(0, 240, 255, 0.2)',
-                        'magenta-glow': '0 0 25px rgba(255, 0, 127, 0.2)',
-                        'premium': '0 20px 40px -15px rgba(0, 0, 0, 0.8)'
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Configuración del Tema y Paleta de Contraste WCAG Compliant -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            deep: '#030712',       /* Fondo absoluto para contraste de grado cinematográfico */
+                            card: '#080C16',       /* Contenedores con profundidad visual */
+                            element: '#0F1526',    /* Elementos de formulario e inputs */
+                            border: '#1F2937'      /* Líneas finas elegantes */
+                        },
+                        neon: {
+                            cyan: '#00F0FF',       /* Acento cian (Glow y Call to Actions) */
+                            magenta: '#FF007F',    /* Acento magenta (Glow secundario) */
+                            emerald: '#10B981',    /* Estado de éxito y confirmación */
+                            purple: '#8B5CF6'      /* Degradados intermedios */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+                        display: ['"Sora"', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'cyan-glow': '0 0 25px rgba(0, 240, 255, 0.2)',
+                        'magenta-glow': '0 0 25px rgba(255, 0, 127, 0.2)',
+                        'premium': '0 20px 40px -15px rgba(0, 0, 0, 0.8)'
+                    }
+                }
+            }
+        }
+    </script>
 
-    <!-- Estilos de Refinamiento y Animaciones SVG -->
-    <style>
-        html, body {
-            overflow-x: hidden;
-            overflow-y: auto;
-            scroll-behavior: smooth;
-            background-color: #030712;
-        }
+    <!-- Estilos de Refinamiento y Animaciones SVG -->
+    <style>
+        html, body {
+            overflow-x: hidden;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            background-color: #030712;
+        }
 
-        /* Degradados de alta legibilidad */
-        .text-gradient {
-            background: linear-gradient(135deg, #00F0FF 0%, #FF007F 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+        /* Degradados de alta legibilidad */
+        .text-gradient {
+            background: linear-gradient(135deg, #00F0FF 0%, #FF007F 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
-        /* Cuadrícula técnica sutil de fondo */
-        .grid-blueprint {
-            background-image: linear-gradient(to right, rgba(31, 41, 55, 0.2) 1px, transparent 1px),
-                              linear-gradient(to bottom, rgba(31, 41, 55, 0.2) 1px, transparent 1px);
-            background-size: 50px 50px;
-        }
+        /* Cuadrícula técnica sutil de fondo */
+        .grid-blueprint {
+            background-image: linear-gradient(to right, rgba(31, 41, 55, 0.2) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(31, 41, 55, 0.2) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
 
-        /* Animación fluida de venas de circuitos SVG */
-        @keyframes pulse-circuit {
-            0%, 100% { stroke-dashoffset: 100; opacity: 0.3; }
-            50% { stroke-dashoffset: 0; opacity: 1; stroke: #00F0FF; }
-        }
+        /* Animación fluida de venas de circuitos SVG */
+        @keyframes pulse-circuit {
+            0%, 100% { stroke-dashoffset: 100; opacity: 0.3; }
+            50% { stroke-dashoffset: 0; opacity: 1; stroke: #00F0FF; }
+        }
 
-        .circuit-line {
-            stroke-dasharray: 100;
-            animation: pulse-circuit 4s infinite linear;
-        }
+        .circuit-line {
+            stroke-dasharray: 100;
+            animation: pulse-circuit 4s infinite linear;
+        }
 
-        .circuit-line-delayed {
-            stroke-dasharray: 100;
-            animation: pulse-circuit 6s infinite linear;
-            animation-delay: 2s;
-        }
+        .circuit-line-delayed {
+            stroke-dasharray: 100;
+            animation: pulse-circuit 6s infinite linear;
+            animation-delay: 2s;
+        }
 
-        /* Customización de Sliders de la Calculadora */
-        input[type="range"] {
-            -webkit-appearance: none;
-            appearance: none;
-            background: #0F1526;
-            height: 6px;
-            border-radius: 9999px;
-            outline: none;
-        }
+        /* Customización de Sliders de la Calculadora */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            background: #0F1526;
+            height: 6px;
+            border-radius: 9999px;
+            outline: none;
+        }
 
-        input[type="range"]::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 20px;
-            height: 20px;
-            background: #00F0FF;
-            border: 4px solid #030712;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
-            transition: transform 0.15s ease-out;
-        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #00F0FF;
+            border: 4px solid #030712;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+            transition: transform 0.15s ease-out;
+        }
 
-        input[type="range"]::-webkit-slider-thumb:hover {
-            transform: scale(1.25);
-        }
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.25);
+        }
 
-        input[type="range"]::-moz-range-thumb {
-            width: 20px;
-            height: 20px;
-            background: #00F0FF;
-            border: 4px solid #030712;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
-            transition: transform 0.15s ease-out;
-        }
-    </style>
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #00F0FF;
+            border: 4px solid #030712;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+            transition: transform 0.15s ease-out;
+        }
+    </style>
 </head>
 <body class="text-zinc-100 font-sans antialiased selection:bg-neon-magenta selection:text-white grid-blueprint">
 
-    <!-- CABECERA: Navegación de Alta Conversión -->
-    <header class="w-full bg-dark-deep/90 backdrop-blur-md border-b border-dark-border sticky top-0 z-50 px-6 py-4 lg:px-12">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            
-            <!-- Logotipo NEONia -->
-            <a href="#" class="flex items-center gap-3 group" aria-label="Volver al inicio">
-                <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-neon-cyan to-neon-magenta p-[1px]">
-                    <div class="h-full w-full bg-dark-deep rounded-[10px] flex items-center justify-center font-display font-black text-white text-md">
-                        N
-                    </div>
-                </div>
-                <div class="flex flex-col">
-                    <span class="text-white font-display font-bold text-lg tracking-wide leading-none group-hover:text-neon-cyan transition-colors">NEONia</span>
-                    <span class="text-[9px] text-zinc-400 font-bold tracking-widest uppercase mt-0.5">Estudio de Ingeniería</span>
-                </div>
-            </a>
-
-            <!-- Navegación de Arquitectura de Conversión -->
-            <nav class="hidden md:flex items-center space-x-8 text-xs font-bold uppercase tracking-wider" aria-label="Menú de navegación">
-                <a href="#enfoque" class="text-zinc-400 hover:text-white transition-colors">Nuestro Enfoque</a>
-                <a href="#lab" class="text-zinc-400 hover:text-neon-cyan transition-colors">Laboratorio Vivo</a>
-                <a href="#servicios" class="text-zinc-400 hover:text-white transition-colors">Servicios</a>
-                <a href="#calculadora" class="text-zinc-400 hover:text-neon-magenta transition-colors">Calculadora de Ahorro</a>
-            </nav>
-
-            <!-- CTA Cabecera -->
-            <div>
-                <a href="#reservas" class="bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold text-xs px-5 py-3.5 rounded-xl transition-all hover:opacity-90 inline-block shadow-cyan-glow">
-                    Agendar Diagnóstico Gratis
-                </a>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <!-- HÉROE: Propuesta de Valor NLP con Hoja Tropical de Circuitos SVG Nativos -->
-        <section class="relative min-h-[90vh] flex items-center py-16 overflow-hidden">
-            
-            <!-- Luces de ambiente traseras -->
-            <div class="absolute -top-[10%] left-[10%] w-[450px] h-[450px] bg-neon-cyan/10 blur-[150px] rounded-full pointer-events-none"></div>
-            <div class="absolute bottom-[10%] right-[5%] w-[450px] h-[450px] bg-neon-magenta/10 blur-[150px] rounded-full pointer-events-none"></div>
-
-            <div class="max-w-7xl mx-auto px-6 lg:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
-                
-                <!-- Columna Izquierda: Copys de Alta Conversión PNL -->
-                <div class="lg:col-span-7 space-y-8 text-left z-10">
-                    <div class="inline-flex items-center gap-2 bg-neon-cyan/10 border border-neon-cyan/30 text-neon-cyan px-4 py-1.5 rounded-full text-xs font-bold tracking-wide">
-                        ✨ El tiempo no se recupera, la eficiencia de tu negocio sí
-                    </div>
-                    
-                    <h1 class="text-4xl sm:text-6xl font-display font-extrabold text-white leading-tight">
-                        Mira el orden de tu negocio.<br>
-                        <span class="text-gradient">Siente la calma de delegar.</span>
-                    </h1>
-                    
-                    <p class="text-lg text-zinc-300 leading-relaxed max-w-2xl">
-                        ¿Vives atrapado en una pantalla llena de pestañas, traspasando datos manualmente y enviando los mismos correos una y otra vez? En <strong>NEONia</strong> diseñamos flujos invisibles que automatizan tus tareas administrativas pesadas. Recuperas horas libres para dedicar al crecimiento estratégico de tu negocio.
-                    </p>
-
-                    <!-- Beneficios Rápidos Visualmente Premium -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 text-sm text-zinc-100 font-semibold">
-                        <div class="flex items-center gap-3">
-                            <div class="h-8 w-8 rounded-xl bg-neon-cyan/10 border border-neon-cyan/20 flex items-center justify-center text-neon-cyan">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
-                            </div>
-                            <span>Recuperamos hasta 25 horas semanales</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <div class="h-8 w-8 rounded-xl bg-neon-magenta/10 border border-neon-magenta/20 flex items-center justify-center text-neon-magenta">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                            </div>
-                            <span>Portales web y marcas listas en 3 días</span>
-                        </div>
-                    </div>
-
-                    <div class="pt-4 flex flex-wrap gap-4">
-                        <a href="#lab" class="bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold px-8 py-4 rounded-xl shadow-magenta-glow hover:opacity-90 transform hover:-translate-y-0.5 transition-all text-sm">
-                            Probar Laboratorio en Vivo &darr;
-                        </a>
-                        <a href="#calculadora" class="bg-dark-card border border-dark-border hover:border-neon-cyan text-zinc-300 hover:text-white px-8 py-4 rounded-xl transition-all text-sm">
-                            Calcular Tu Retorno Financiero
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Columna Derecha: Ilustración Monstera Cybernética SVG de Alta Fidelidad -->
-                <div class="lg:col-span-5 relative z-10 flex justify-center">
-                    <div class="w-full max-w-[400px] aspect-square bg-dark-card/60 p-8 rounded-3xl border border-dark-border shadow-premium relative">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-dark-deep/40 rounded-3xl"></div>
-                        
-                        <!-- Monstera Cyber-Circuit Leaf SVG -->
-                        <svg viewBox="0 0 100 100" fill="none" class="w-full h-full relative z-10 filter drop-shadow-[0_0_15px_rgba(0,240,255,0.2)]">
-                            <!-- Silueta base de la hoja -->
-                            <path d="M50 5 C50 5, 80 15, 88 40 C95 60, 85 85, 50 95 C15 85, 5 60, 12 40 C20 15, 50 5, 50 5 Z" fill="#060b14" stroke="#1f2937" stroke-width="1" />
-                            
-                            <!-- Cortes tropicales de la Monstera -->
-                            <path d="M50 5 M50 20 C60 25, 75 22, 85 25 M50 35 C65 35, 78 40, 88 48 M50 50 C62 55, 70 70, 78 80 M50 20 C40 25, 25 22, 15 25 M50 35 C35 35, 22 40, 12 48 M50 50 C38 55, 30 70, 22 80" stroke="#101827" stroke-width="2" />
-                            
-                            <!-- Venas del circuito animadas -->
-                            <path d="M50 90 L50 25" stroke="#1f2937" stroke-width="2" stroke-linecap="round" />
-                            <path d="M50 25 L88 40" stroke="url(#cyan-magenta-grad)" stroke-width="1.5" class="circuit-line" stroke-linecap="round" />
-                            <path d="M50 45 L12 40" stroke="url(#cyan-magenta-grad)" stroke-width="1.5" class="circuit-line-delayed" stroke-linecap="round" />
-                            <path d="M50 60 L80 75" stroke="#00F0FF" stroke-width="1.5" class="circuit-line" stroke-linecap="round" />
-                            <path d="M50 75 L20 70" stroke="#FF007F" stroke-width="1.5" class="circuit-line-delayed" stroke-linecap="round" />
-
-                            <!-- Nodos de conexión brillantes -->
-                            <circle cx="50" cy="25" r="2.5" fill="#00F0FF" />
-                            <circle cx="88" cy="40" r="2.5" fill="#FF007F" />
-                            <circle cx="12" cy="40" r="2.5" fill="#00F0FF" />
-                            <circle cx="80" cy="75" r="2.5" fill="#FF007F" />
-                            <circle cx="20" cy="70" r="2.5" fill="#00F0FF" />
-                            <circle cx="50" cy="90" r="3" fill="#00F0FF" />
-
-                            <defs>
-                                <linearGradient id="cyan-magenta-grad" x1="0" y1="0" x2="1" y2="1">
-                                    <stop offset="0%" stop-color="#00F0FF" />
-                                    <stop offset="100%" stop-color="#FF007F" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-
-                        <!-- Panel de estatus de red flotante -->
-                        <div class="absolute bottom-4 left-4 right-4 bg-dark-deep/90 border border-dark-border p-3.5 rounded-xl flex items-center justify-between text-[10px] font-mono z-20">
-                            <span class="text-neon-cyan">SISTEMA_FLUX: ACTIVO</span>
-                            <span class="text-zinc-500">OPTIMIZACIÓN: 98%</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- ENFOQUE DE NEGOCIO: Remoto y Sin Reuniones Físicas -->
-        <section id="enfoque" class="py-24 bg-dark-card border-y border-dark-border relative">
-            <div class="max-w-7xl mx-auto px-6 lg:px-12">
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    
-                    <div class="space-y-6">
-                        <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">NUESTRO ENFOQUE</span>
-                        <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white leading-tight">La tecnología debería trabajar para ti, no al revés.</h2>
-                        <p class="text-zinc-300 leading-relaxed text-sm sm:text-base">
-                            Entendemos que no necesitas saber qué es un "Webhook", una "API" o una "automatización cognitiva compleja". Lo que necesitas es que tu sistema de cobros notifique automáticamente a tu equipo, que las facturas se guarden ordenadamente solas y que tu página web cargue al instante para no perder ninguna venta.
-                        </p>
-                        <p class="text-zinc-300 leading-relaxed text-sm sm:text-base">
-                            En <strong>NEONia</strong> nos encargamos del trabajo complejo tras bambalinas para entregarte flujos limpios, listos para pulsar y con explicaciones en vídeos cortos y sencillos para que seas totalmente libre de operarlos.
-                        </p>
-                    </div>
-
-                    <!-- Ilustración de Flujo Tecnológico / Tarjetas Informativas -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div class="bg-dark-deep p-6 border border-dark-border rounded-2xl hover:border-neon-cyan/30 transition-all">
-                            <div class="text-2xl mb-3 text-neon-cyan">🚀</div>
-                            <h3 class="text-white font-bold mb-1">Sin Complicaciones</h3>
-                            <p class="text-xs text-zinc-400 leading-relaxed">Te entregamos sistemas que funcionan sin que tengas que aprender código complejo ni configuraciones confusas.</p>
-                        </div>
-                        
-                        <div class="bg-dark-deep p-6 border border-dark-border rounded-2xl hover:border-neon-magenta/30 transition-all">
-                            <div class="text-2xl mb-3 text-neon-magenta">⏱️</div>
-                            <h3 class="text-white font-bold mb-1">Velocidad Increíble</h3>
-                            <p class="text-xs text-zinc-400 leading-relaxed">Olvídate de agencias tradicionales que tardan meses en responder un correo. Creamos y lanzamos con rapidez.</p>
-                        </div>
-
-                        <!-- Tarjeta Informativa de No-Presencialidad de Alto Impacto -->
-                        <div class="bg-dark-deep p-6 border border-dark-border rounded-2xl hover:border-neon-cyan/30 transition-all sm:col-span-2 relative overflow-hidden group">
-                            <div class="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                                <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h2m4-3.5a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <span class="text-3xl mt-1 text-neon-cyan">🌍</span>
-                                <div>
-                                    <h3 class="text-white font-bold mb-1 text-sm sm:text-base">¿Reuniones físicas presenciales? Prescindimos de ellas</h3>
-                                    <p class="text-xs text-zinc-400 leading-relaxed">
-                                        Operamos de manera 100% remota con talento internacional distribuidos globalmente. No nos limitamos a la geografía del cliente. Al eliminar traslados presenciales ineficientes y burocracia de oficina, nos enfocamos por completo en construir software, entregando resultados con mayor rapidez y a un costo optimizado.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- LABORATORIO INTERACTIVO (Live Sandbox) con Diagrama de Conexión SVG -->
-        <section id="lab" class="py-24 bg-dark-deep relative">
-            <div class="max-w-7xl mx-auto px-6 lg:px-12">
-                
-                <header class="text-center max-w-2xl mx-auto space-y-4 mb-16">
-                    <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">CONSTRUCCIÓN VIVA</span>
-                    <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white">Prueba Cómo Funciona un Flujo</h2>
-                    <p class="text-slate-400 text-sm">
-                        Selecciona qué evento quieres capturar y qué acción quieres automatizar para ver una simulación interactiva de nuestros sistemas en tiempo real.
-                    </p>
-                </header>
-
-                <!-- Contenedor del Lab interactivo -->
-                <div class="max-w-4xl mx-auto bg-dark-card p-8 rounded-2xl border border-dark-border shadow-premium space-y-8 relative overflow-hidden">
-                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-neon-cyan/5 blur-3xl rounded-full"></div>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
-                        
-                        <!-- Paso 1 -->
-                        <div class="space-y-3">
-                            <label for="trigger-select" class="block text-xs font-bold text-neon-cyan tracking-wider uppercase">PASO 1: Cuando ocurra esto</label>
-                            <select id="trigger-select" class="w-full bg-dark-deep border border-dark-border hover:border-neon-cyan text-white text-xs p-4 rounded-xl outline-none transition-colors" onchange="actualizarLabVisual()">
-                                <option value="lead">Un nuevo cliente llena el formulario web</option>
-                                <option value="cobro">Se procesa un cobro de tarjeta con éxito</option>
-                                <option value="ticket">Sube un reporte de problema en soporte</option>
-                            </select>
-                        </div>
-
-                        <!-- Separador Visual / Diagrama de Integración SVG -->
-                        <div class="flex items-center justify-center">
-                            <div class="text-center w-full max-w-[120px] px-2">
-                                <span class="text-[9px] text-zinc-500 font-bold block mb-2 uppercase">Integración</span>
-                                <svg viewBox="0 0 100 30" fill="none" class="w-full h-8">
-                                    <path d="M5 15 C30 15, 30 5, 50 5 C70 5, 70 15, 95 15" stroke="#1f2937" stroke-width="1.5" />
-                                    <path d="M5 15 C30 15, 30 25, 50 25 C70 25, 70 15, 95 15" stroke="url(#cyan-magenta-grad)" stroke-width="1.5" stroke-dasharray="10" class="circuit-line" />
-                                    <circle cx="5" cy="15" r="3" fill="#00F0FF" />
-                                    <circle cx="50" cy="15" r="4" fill="#0B0F19" stroke="#FF007F" stroke-width="2" />
-                                    <circle cx="95" cy="15" r="3" fill="#FF007F" />
-                                </svg>
-                            </div>
-                        </div>
-
-                        <!-- Paso 2 -->
-                        <div class="space-y-3">
-                            <label id="action-label" for="action-select" class="block text-xs font-bold text-neon-magenta tracking-wider uppercase">PASO 2: Hacer esto automáticamente</label>
-                            <select id="action-select" class="w-full bg-dark-deep border border-dark-border hover:border-neon-magenta text-white text-xs p-4 rounded-xl outline-none transition-colors" onchange="actualizarLabVisual()">
-                                <option value="slack">Enviar alerta inmediata al chat del equipo</option>
-                                <option value="sheet">Añadir una fila ordenada en Google Sheets</option>
-                                <option value="email">Enviar email de bienvenida interactivo al cliente</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <!-- Consola de Simulación -->
-                    <div class="bg-dark-deep p-6 rounded-xl border border-dark-border space-y-4 relative z-10">
-                        <div class="flex justify-between items-center text-xs">
-                            <span class="font-bold text-white tracking-wide">MAPEO VISUAL DEL SISTEMA</span>
-                            <span class="text-[10px] text-neon-emerald bg-neon-emerald/10 px-2 py-0.5 rounded font-bold">ONLINE</span>
-                        </div>
-
-                        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 py-4 font-mono text-xs">
-                            <div id="vis-trigger" class="px-5 py-3 bg-neon-cyan/10 border border-neon-cyan/30 text-neon-cyan font-bold rounded-xl">
-                                [ Formulario Web ]
-                            </div>
-                            <div class="text-slate-600 font-bold text-lg">&#10142;</div>
-                            <div class="px-5 py-3 bg-dark-card border border-dark-border text-white rounded-xl">
-                                Estructura de Datos
-                            </div>
-                            <div class="text-slate-600 font-bold text-lg">&#10142;</div>
-                            <div id="vis-action" class="px-5 py-3 bg-neon-magenta/10 border border-neon-magenta/30 text-neon-magenta font-bold rounded-xl">
-                                [ Alerta Chat ]
-                            </div>
-                        </div>
-
-                        <div class="text-center pt-2">
-                            <button onclick="dispararPulsoLab()" class="bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold px-8 py-3.5 rounded-xl text-xs tracking-wider uppercase hover:opacity-90 transition-all shadow-cyan-glow">
-                                ⚡ Disparar Simulación de Prueba
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Cuadro de Éxito en vivo -->
-                    <div id="success-sandbox" class="hidden bg-neon-emerald/10 border border-neon-emerald/20 p-4 rounded-xl flex items-center gap-3 text-xs text-neon-emerald transition-all">
-                        <span>🚀</span>
-                        <span><strong>¡Prueba completada en 0.02 segundos!</strong> El sistema ha procesado, formateado e insertado los datos de forma 100% autónoma.</span>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- SERVICIOS: Tarjetas Comerciales Premium -->
-        <section id="servicios" class="py-24 bg-dark-card border-y border-dark-border relative">
-            <div class="max-w-7xl mx-auto px-6 lg:px-12">
-                
-                <header class="text-center max-w-3xl mx-auto space-y-4 mb-20">
-                    <span class="text-neon-magenta text-xs font-bold tracking-widest uppercase bg-neon-magenta/10 border border-neon-magenta/20 px-4 py-1.5 rounded-full">CATÁLOGO DE VALOR</span>
-                    <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">Nuestras Dos Soluciones Claras</h2>
-                    <p class="text-zinc-400 text-sm">
-                        Sin tarifas ocultas ni contratos complejos de mantenimiento de por vida. Te ofrecemos soluciones listas para operar con precios transparentes y fijos.
-                    </p>
-                </header>
-
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-                    
-                    <!-- Paquete 1: Programa de Automatización Alpha -->
-                    <article class="bg-dark-deep p-8 rounded-3xl border border-dark-border hover:border-neon-cyan/50 transition-all duration-300 flex flex-col justify-between shadow-premium relative overflow-hidden group">
-                        <div class="absolute -bottom-10 -right-10 w-24 h-24 bg-neon-cyan/5 blur-2xl rounded-full group-hover:bg-neon-cyan/10 transition-colors"></div>
-                        
-                        <div class="space-y-6">
-                            <div class="flex items-center gap-2 text-neon-cyan">
-                                <span class="text-xl">⚙️</span>
-                                <span class="text-xs font-bold uppercase tracking-wider">PROGRAMA ALPHA</span>
-                            </div>
-                            <h3 class="text-2xl font-display font-extrabold text-white">Automatización de Procesos</h3>
-                            <p class="text-sm text-zinc-300 leading-relaxed">
-                                Diseñado para dueños de negocios y equipos agobiados por tareas manuales aburridas. Analizamos tus flujos de trabajo, configuramos las conexiones automáticas entre tus plataformas cotidianas y te entregamos vídeos cortos de formación muy fáciles de comprender para que manejes tu nuevo sistema sin depender de nadie.
-                            </p>
-                            
-                            <div class="space-y-4 pt-2">
-                                <h4 class="text-xs font-bold text-white uppercase tracking-wider">¿Qué vas a recibir exactamente?</h4>
-                                <ul class="space-y-2.5 text-xs text-zinc-300 font-semibold">
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-cyan text-sm">✓</span> 
-                                        <span>Conexión de tus aplicaciones clave (CRM, Calendarios, Notion, Emails)</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-cyan text-sm">✓</span> 
-                                        <span>Eliminación definitiva de transferencias manuales de archivos e información</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-cyan text-sm">✓</span> 
-                                        <span>Entrega garantizada en menos de 15 días laborables</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-cyan text-sm">✓</span> 
-                                        <span>Videotutoriales paso a paso creados en español claro para ti y tu equipo</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="pt-8 mt-8 border-t border-dark-border flex flex-col sm:flex-row justify-between items-center gap-4">
-                            <div>
-                                <span class="text-[10px] text-zinc-500 uppercase block font-bold">Inversión única del paquete:</span>
-                                <span class="text-2xl font-display font-black text-white">$1,500 USD</span>
-                            </div>
-                            <a href="#reservas" class="bg-neon-cyan text-dark-deep font-extrabold text-xs px-6 py-3.5 rounded-xl hover:bg-white transition-colors">
-                                Quiero Automatizar Mi Negocio
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Paquete 2: Sprint de Lanzamiento Técnico Beta -->
-                    <article class="bg-dark-deep p-8 rounded-3xl border border-dark-border hover:border-neon-magenta/50 transition-all duration-300 flex flex-col justify-between shadow-premium relative overflow-hidden group">
-                        <div class="absolute -bottom-10 -right-10 w-24 h-24 bg-neon-magenta/5 blur-2xl rounded-full group-hover:bg-neon-magenta/10 transition-colors"></div>
-
-                        <div class="space-y-6">
-                            <div class="flex items-center gap-2 text-neon-magenta">
-                                <span class="text-xl">⚡</span>
-                                <span class="text-xs font-bold uppercase tracking-wider">PROGRAMA BETA</span>
-                            </div>
-                            <h3 class="text-2xl font-display font-extrabold text-white">Sprint Técnico en 3 Días</h3>
-                            <p class="text-sm text-zinc-300 leading-relaxed">
-                                Olvídate de las agencias de desarrollo web tradicionales que tardan meses en entregarte un borrador y nunca finalizan el proyecto. Trabajamos de manera intensiva contigo durante un fin de semana para diseñar, maquetar, programar y lanzar tu plataforma digital, lista para cobrar clientes y capturar prospectos.
-                            </p>
-                            
-                            <div class="space-y-4 pt-2">
-                                <h4 class="text-xs font-bold text-white uppercase tracking-wider">¿Qué vas a recibir exactamente?</h4>
-                                <ul class="space-y-2.5 text-xs text-zinc-300 font-semibold">
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-magenta text-sm">✓</span> 
-                                        <span>Diseño visual premium e identidad web de alta velocidad</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-magenta text-sm">✓</span> 
-                                        <span>Estructura optimizada para motores de búsqueda nativa (SEO Semántico)</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-magenta text-sm">✓</span> 
-                                        <span>Pasarela de pago conectada (Stripe, Paypal) y agendador automático</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="text-neon-magenta text-sm">✓</span> 
-                                        <span>1 hora de capacitación en directo para gestionar tu nueva web de por vida</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="pt-8 mt-8 border-t border-dark-border flex flex-col sm:flex-row justify-between items-center gap-4">
-                            <div>
-                                <span class="text-[10px] text-zinc-500 uppercase block font-bold">Inversión única del Sprint:</span>
-                                <span class="text-2xl font-display font-black text-white">$3,000 USD</span>
-                            </div>
-                            <a href="#reservas" class="bg-neon-magenta text-white font-extrabold text-xs px-6 py-3.5 rounded-xl hover:bg-white hover:text-dark-deep transition-all">
-                                Lanzar Mi Plataforma Ya
-                            </a>
-                        </div>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- CALCULADORA DE AHORRO CON ENTRADA DE SALARIO DINÁMICO -->
-        <section id="calculadora" class="py-24 bg-dark-deep relative">
-            <div class="max-w-7xl mx-auto px-6 lg:px-12">
-                
-                <header class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-                    <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">AUDITORÍA ECONÓMICA</span>
-                    <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">Calcula el Coste de tu Burocracia Manual</h2>
-                    <p class="text-slate-400 text-sm">
-                        Ajusta los sliders según la cantidad de tareas repetitivas de tu equipo para ver la cantidad exacta de tiempo libre y dinero que recuperas anualmente con un flujo automatizado.
-                    </p>
-                </header>
-
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
-                    
-                    <!-- Entrada de datos (Sliders) -->
-                    <div class="lg:col-span-5 bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between space-y-8 shadow-premium">
-                        <div>
-                            <h3 class="text-lg font-bold text-white font-display flex items-center gap-2">
-                                <span>📊</span> Datos Operativos Reales
-                            </h3>
-                        </div>
-
-                        <div class="space-y-6">
-                            <!-- Slider 1 -->
-                            <div class="space-y-3">
-                                <div class="flex justify-between text-xs font-bold">
-                                    <span class="text-slate-300 uppercase">Horas repetitivas semanales por persona</span>
-                                    <span id="label-horas" class="text-neon-cyan font-bold">15 Horas</span>
-                                </div>
-                                <input 
-                                    type="range" 
-                                    id="input-horas" 
-                                    min="5" 
-                                    max="40" 
-                                    value="15" 
-                                    class="w-full animate-pulse-once"
-                                    oninput="actualizarCalculos()"
-                                >
-                                <span class="text-[10px] text-zinc-500 block leading-normal">Tiempo total semanal invertido copiando correos, organizando hojas de cálculo, etc.</span>
-                            </div>
-
-                            <!-- Slider 2 -->
-                            <div class="space-y-3">
-                                <div class="flex justify-between text-xs font-bold">
-                                    <span class="text-slate-300 uppercase">Cantidad de personas en tu equipo</span>
-                                    <span id="label-colaboradores" class="text-neon-cyan font-bold">3 Personas</span>
-                                </div>
-                                <input 
-                                    type="range" 
-                                    id="input-colaboradores" 
-                                    min="1" 
-                                    max="20" 
-                                    value="3" 
-                                    class="w-full"
-                                    oninput="actualizarCalculos()"
-                                >
-                            </div>
-
-                            <!-- Slider 3 de Costo de Salario por Hora Dinámico -->
-                            <div class="space-y-3">
-                                <div class="flex justify-between text-xs font-bold">
-                                    <span class="text-slate-300 uppercase">Costo de salario por hora promedio</span>
-                                    <span id="label-coste" class="text-premium-purple font-bold">$18 USD</span>
-                                </div>
-                                <input 
-                                    type="range" 
-                                    id="input-coste" 
-                                    min="10" 
-                                    max="150" 
-                                    value="18" 
-                                    class="w-full"
-                                    oninput="actualizarCalculos()"
-                                >
-                                <span class="text-[10px] text-zinc-500 block leading-normal">El salario promedio por hora de los miembros del equipo involucrados en estas tareas.</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Bloques de Resultados de Ahorros -->
-                    <div class="lg:col-span-7 flex flex-col justify-between gap-6">
-                        
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 flex-grow">
-                            
-                            <!-- Caja 1 -->
-                            <div class="bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between shadow-premium relative overflow-hidden">
-                                <div class="space-y-2">
-                                    <span class="text-xs font-bold text-neon-cyan tracking-wider block uppercase">Capacidad Recuperada (Anual)</span>
-                                    <div class="flex items-baseline gap-2">
-                                        <span class="text-5xl font-display font-black text-white" id="out-horas">0</span>
-                                        <span class="text-sm text-neon-cyan font-bold">Horas</span>
-                                    </div>
-                                    <p class="text-xs text-zinc-400 leading-relaxed mt-2">
-                                        Tiempo devuelto a tus colaboradores para que se dediquen de lleno a aportar valor y mejorar ventas.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Caja 2 -->
-                            <div class="bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between shadow-premium relative overflow-hidden">
-                                <div class="space-y-2">
-                                    <span class="text-xs font-bold text-neon-magenta tracking-wider block uppercase">Ahorro Financiero Neto</span>
-                                    <span class="text-4xl font-display font-black text-white" id="out-dinero">$0 USD</span>
-                                    <p class="text-xs text-zinc-400 leading-relaxed mt-2">
-                                        Capital recuperado al eliminar el pago de salarios invertidos puramente en tareas redundantes.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Caja 3 -->
-                            <div class="bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between col-span-1 sm:col-span-2 shadow-premium">
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                                    <div class="space-y-3">
-                                        <span class="text-xs font-bold text-neon-emerald tracking-wider block uppercase">TIEMPO EXTRA CREADO</span>
-                                        <div class="flex items-baseline gap-2">
-                                            <span class="text-5xl font-display font-black text-white" id="out-dias">0</span>
-                                            <span class="text-sm text-neon-emerald font-bold">Días Libres Ganados</span>
-                                        </div>
-                                        <p class="text-xs text-zinc-400 leading-relaxed">
-                                            Equivalente a jornadas laborales completas de 8 horas recuperadas en el negocio de manera anual.
-                                        </p>
-                                    </div>
-                                    
-                                    <div class="bg-dark-deep p-4 rounded-xl border border-dark-border text-xs space-y-2 font-semibold">
-                                        <span class="text-white block font-bold mb-1">PROYECCIÓN ESTRATÉGICA:</span>
-                                        <div class="flex items-center justify-between">
-                                            <span class="text-zinc-400">Eficiencia en flujo:</span>
-                                            <span class="text-neon-cyan font-bold">+85% de fluidez</span>
-                                        </div>
-                                        <div class="flex items-center justify-between">
-                                            <span class="text-zinc-400">Time-to-market ganado:</span>
-                                            <span class="text-neon-magenta font-bold" id="out-dias-libres">17 días menos</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- SISTEMA DE RESERVAS INTERACTIVO (Formulario con Consola de Proyecto en Vivo) -->
-        <section id="reservas" class="py-24 bg-dark-card border-y border-dark-border relative">
-            <div class="max-w-7xl mx-auto px-6 lg:px-12">
-                
-                <header class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-                    <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">PLANIFICACIÓN ÁGIL</span>
-                    <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white">¿Listo para dar el siguiente paso?</h2>
-                    <p class="text-zinc-400 text-sm">
-                        Cuéntanos lo que quieres solucionar. El sistema compilará tu brief técnico de manera inmediata para diseñar tu propuesta preliminar antes de nuestra llamada.
-                    </p>
-                </header>
-
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
-                    
-                    <!-- Formulario Unificado de Diagnóstico (Columna Izquierda) -->
-                    <div class="lg:col-span-7 bg-dark-deep p-8 rounded-3xl border border-dark-border shadow-premium relative flex flex-col justify-between">
-                        
-                        <div id="booking-stage-1" class="space-y-6">
-                            <div class="border-b border-dark-border pb-4">
-                                <h3 class="text-lg font-bold text-white font-display">Ingresa los datos de tu Proyecto</h3>
-                                <p class="text-xs text-zinc-400">Reuniones 100% remotas y asíncronas para optimizar tu tiempo (Zona Horaria: Panamá GMT-5)</p>
-                            </div>
-
-                            <!-- PASO 1: Diagnóstico de Operaciones (Escritura Libre) -->
-                            <div class="space-y-4">
-                                <h4 class="text-xs font-bold text-neon-cyan uppercase tracking-wider font-mono">01. Sobre tu negocio</h4>
-                                
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <div class="space-y-2">
-                                        <label for="input-negocio" class="block text-xs font-bold text-zinc-400">¿A qué se dedica tu negocio?</label>
-                                        <input id="input-negocio" type="text" placeholder="Ej: Tienda online de café, Consultora de leyes..." class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
-                                    </div>
-                                    <div class="space-y-2">
-                                        <label for="input-herramientas" class="block text-xs font-bold text-zinc-400">¿Qué herramientas usan cotidianamente?</label>
-                                        <input id="input-herramientas" type="text" placeholder="Ej: Excel, Slack, WhatsApp, Notion..." class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
-                                    </div>
-                                </div>
-
-                                <div class="space-y-2">
-                                    <label for="input-problema" class="block text-xs font-bold text-zinc-400">¿Qué problema o proceso repetitivo quieres automatizar o solucionar?</label>
-                                    <textarea id="input-problema" rows="2" placeholder="Ej: Perdemos 10 horas semanales copiando datos de clientes a un Excel..." class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan resize-none transition-colors" oninput="actualizarBrief()"></textarea>
-                                </div>
-                            </div>
-
-                            <!-- PASO 2: Contacto y Agenda -->
-                            <div class="space-y-4 pt-2 border-t border-dark-border/40">
-                                <h4 class="text-xs font-bold text-neon-magenta uppercase tracking-wider font-mono">02. Datos de Contacto y Reserva</h4>
-                                
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <div class="space-y-2">
-                                        <label for="booking-name" class="block text-xs font-bold text-zinc-400">Nombre Completo</label>
-                                        <input id="booking-name" type="text" placeholder="Tu nombre" class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
-                                    </div>
-                                    <div class="space-y-2">
-                                        <label for="booking-email" class="block text-xs font-bold text-zinc-400">Correo Electrónico de Negocios</label>
-                                        <input id="booking-email" type="email" placeholder="nombre@empresa.com" class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
-                                    </div>
-                                </div>
-
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <!-- Selector de Fecha -->
-                                    <div class="space-y-2">
-                                        <label for="booking-date" class="block text-xs font-bold text-zinc-400 uppercase">Elegir Día</label>
-                                        <select id="booking-date" class="w-full bg-dark-card border border-dark-border text-white text-xs p-3.5 rounded-xl outline-none focus:border-neon-cyan" onchange="actualizarBrief()">
-                                            <option value="Lunes 20 de Julio">Lunes 20 de Julio, 2026</option>
-                                            <option value="Martes 21 de Julio">Martes 21 de Julio, 2026</option>
-                                            <option value="Miércoles 22 de Julio">Miércoles 22 de Julio, 2026</option>
-                                        </select>
-                                    </div>
-
-                                    <!-- Selector de Hora -->
-                                    <div class="space-y-2">
-                                        <label for="booking-time" class="block text-xs font-bold text-zinc-400 uppercase">Elegir Horario</label>
-                                        <select id="booking-time" class="w-full bg-dark-card border border-dark-border text-white text-xs p-3.5 rounded-xl outline-none focus:border-neon-cyan" onchange="actualizarBrief()">
-                                            <option value="10:00 AM">10:00 AM (GMT-5)</option>
-                                            <option value="11:30 AM">11:30 AM (GMT-5)</option>
-                                            <option value="03:00 PM">03:00 PM (GMT-5)</option>
-                                            <option value="04:30 PM">04:30 PM (GMT-5)</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Botón de Envío -->
-                            <div class="pt-2">
-                                <button onclick="completarReserva()" class="w-full bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold py-4 rounded-xl text-xs tracking-wider uppercase hover:opacity-90 transition-all shadow-cyan-glow">
-                                    Confirmar Mi Espacio de Diagnóstico
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Mensaje de Éxito de la Reserva -->
-                        <div id="booking-stage-2" class="hidden text-center py-12 space-y-6 flex-grow flex flex-col justify-center items-center">
-                            <div class="h-16 w-16 bg-neon-emerald/10 border border-neon-emerald/30 text-neon-emerald text-3xl flex items-center justify-center rounded-full animate-bounce">
-                                ✓
-                            </div>
-                            <div class="space-y-2">
-                                <h3 class="text-2xl font-bold font-display text-white">¡Llamada Agendada con Éxito!</h3>
-                                <p class="text-xs text-slate-400 max-w-sm mx-auto leading-relaxed">
-                                    Hemos reservado tu espacio para el <strong id="res-date" class="text-white"></strong> a las <strong id="res-time" class="text-white"></strong>. Te hemos enviado un correo de confirmación de manera automatizada.
-                                </p>
-                            </div>
-                            <div class="bg-dark-card p-4 rounded-xl border border-dark-border text-xs text-slate-400 max-w-xs mx-auto font-mono">
-                                SISTEMA AUTO-BOOKING: OK
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Consola Virtual: Ficha Técnica compilada en tiempo real (Columna Derecha) -->
-                    <div class="lg:col-span-5 bg-dark-deep p-8 rounded-3xl border border-dark-border flex flex-col justify-between shadow-premium relative min-h-[480px]">
-                        <div class="absolute -top-10 -left-10 w-24 h-24 bg-neon-cyan/5 blur-2xl rounded-full"></div>
-                        
-                        <div class="space-y-4 relative z-10 w-full font-mono text-xs">
-                            <div class="flex justify-between items-center border-b border-dark-border pb-3">
-                                <div class="flex items-center gap-2">
-                                    <span class="h-2 w-2 rounded-full bg-neon-cyan animate-pulse"></span>
-                                    <span class="text-xs font-bold text-white uppercase tracking-wider">PROYECTO_DRAFT.json</span>
-                                </div>
-                                <span class="text-[9px] text-neon-cyan bg-neon-cyan/10 px-2 py-0.5 rounded font-bold">COMPILANDO...</span>
-                            </div>
-
-                            <!-- Bloque de Código JSON Autogenerado en tiempo real con alta legibilidad -->
-                            <div class="bg-dark-card p-6 rounded-2xl border border-dark-border space-y-3 leading-relaxed text-zinc-300 overflow-x-auto select-none">
-                                <p class="text-zinc-500 font-bold">{</p>
-                                <p class="pl-4">
-                                    <span class="text-neon-cyan">"negocio_origen"</span>: <span id="brief-negocio" class="text-neon-magenta">"Esperando escritura..."</span>,
-                                </p>
-                                <p class="pl-4">
-                                    <span class="text-neon-cyan">"herramientas_actuales"</span>: <span id="brief-herramientas" class="text-neon-magenta">"Esperando..."</span>,
-                                </p>
-                                <p class="pl-4">
-                                    <span class="text-neon-cyan">"problema_critico"</span>: <span id="brief-problema" class="text-neon-magenta font-semibold">"Pendiente diagnóstico..."</span>,
-                                </p>
-                                <p class="pl-4">
-                                    <span class="text-neon-cyan">"representante"</span>: <span id="brief-representante" class="text-white">"Pendiente..."</span>,
-                                </p>
-                                <p class="pl-4">
-                                    <span class="text-neon-cyan">"reunion_agendada"</span>: <span id="brief-reunion" class="text-neon-emerald">"Lunes 20 de Julio - 10:00 AM (100% Remoto)"</span>,
-                                </p>
-                                <p class="pl-4">
-                                    <span class="text-neon-cyan">"formato_reunion"</span>: <span class="text-white">"100% Remoto (Sin visitas físicas)"</span>
-                                </p>
-                                <p class="text-zinc-500 font-bold">}</p>
-                            </div>
-                        </div>
-
-                        <!-- Cuadro explicativo de valor técnico -->
-                        <div class="bg-dark-card p-4 rounded-xl border border-dark-border text-[10px] text-zinc-400 font-mono leading-relaxed relative z-10">
-                            <span class="text-neon-magenta font-bold block mb-1">&gt; METODOLOGÍA ASÍNCRONA</span>
-                            Con los parámetros de arriba, nuestro equipo de ingeniería diseñará un prototipo preliminar antes de darte el primer "hola". Aprovechamos cada segundo.
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-    </main>
-
-    <!-- PIE DE PÁGINA GLOBAL -->
-    <footer class="w-full bg-dark-deep border-t border-dark-border py-16 px-6 lg:px-12 text-sm text-zinc-500">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
-            
-            <div class="md:col-span-5 space-y-4">
-                <span class="text-lg font-display font-bold text-white tracking-wide">NEONia</span>
-                <p class="leading-relaxed text-xs text-zinc-400 max-w-sm">
-                    Estudio de ingeniería de procesos de alta gama. Automatizamos el trabajo manual e ineficiente y creamos portales web ultra ágiles para negocios en crecimiento de forma 100% remota.
-                </p>
-            </div>
-
-            <div class="md:col-span-3 space-y-3">
-                <span class="text-white font-bold text-xs tracking-wider uppercase block">// SERVICIOS</span>
-                <ul class="space-y-2 text-xs text-zinc-400 font-semibold">
-                    <li><a href="#servicios" class="hover:text-neon-cyan">Programa Alpha: Automatización</a></li>
-                    <li><a href="#servicios" class="hover:text-neon-magenta">Programa Beta: Sprints en 3 Días</a></li>
-                    <li><a href="#calculadora" class="hover:text-neon-cyan">Calculadora de Impacto</a></li>
-                </ul>
-            </div>
-
-            <div class="md:col-span-4 space-y-4 text-xs font-semibold">
-                <span class="text-white font-bold tracking-wider uppercase block">// COMUNICACIÓN GLOBAL</span>
-                <p class="text-zinc-400 leading-relaxed">Operamos de manera 100% remota con ingenieros en múltiples husos horarios internacionales. Escríbenos directamente a <a href="mailto:proyectos@neonia.io" class="text-neon-cyan hover:underline font-bold">proyectos@neonia.io</a>.</p>
-                <div class="text-[10px] text-zinc-500 uppercase tracking-widest bg-dark-card inline-block px-3 py-1 border border-dark-border rounded-md">STATUS: ONLINE</div>
-            </div>
-
-            <div class="md:col-span-12 border-t border-dark-border pt-8 text-center text-[10px] text-zinc-600 font-semibold uppercase tracking-wider">
-                &copy; 2026 NEONia. Construcción impecable libre de relleno corporativo tradicional. Todos los derechos reservados.
-            </div>
-
-        </div>
-    </footer>
-
-    <!-- LÓGICA DE PROGRAMACIÓN DE LA SPA -->
-    <script>
-        // -------------------------------------------------------------
-        // LABORATORIO INTERACTIVO VIVO
-        // -------------------------------------------------------------
-        function actualizarLabVisual() {
-            const triggerVal = document.getElementById('trigger-select').value;
-            const actionVal = document.getElementById('action-select').value;
-
-            const visTrigger = document.getElementById('vis-trigger');
-            const visAction = document.getElementById('vis-action');
-
-            const visualTriggers = {
-                lead: '[ Formulario Web ]',
-                cobro: '[ Pago Exitoso ]',
-                ticket: '[ Nuevo Ticket ]'
-            };
-
-            const visualActions = {
-                slack: '[ Alerta Chat ]',
-                sheet: '[ Fila Sheets ]',
-                email: '[ Email Cliente ]'
-            };
-
-            visTrigger.innerText = visualTriggers[triggerVal];
-            visAction.innerText = visualActions[actionVal];
-
-            // Esconder la confirmación en caso de que se realicen cambios para invitar a disparar nuevamente
-            document.getElementById('success-sandbox').classList.add('hidden');
-        }
-
-        // Pulse Effect
-        function dispararPulsoLab() {
-            const successBox = document.getElementById('success-sandbox');
-            successBox.classList.remove('hidden');
-
-            const visTrigger = document.getElementById('vis-trigger');
-            const visAction = document.getElementById('vis-action');
-
-            visTrigger.classList.add('animate-ping');
-            visAction.classList.add('animate-ping');
-
-            setTimeout(() => {
-                visTrigger.classList.remove('animate-ping');
-                visAction.classList.remove('animate-ping');
-            }, 600);
-        }
-
-        // -------------------------------------------------------------
-        // CALCULADORA DE RETORNO ECONÓMICO (Dinámico con control de salario)
-        // -------------------------------------------------------------
-        function actualizarCalculos() {
-            const horasSemanales = parseInt(document.getElementById('input-horas').value);
-            const numeroColaboradores = parseInt(document.getElementById('input-colaboradores').value);
-            const salarioHora = parseInt(document.getElementById('input-coste').value);
-
-            // Actualización de etiquetas visibles
-            document.getElementById('label-horas').innerText = `${horasSemanales} Horas`;
-            document.getElementById('label-colaboradores').innerText = `${numeroColaboradores} ${numeroColaboradores === 1 ? 'Persona' : 'Personas'}`;
-            document.getElementById('label-coste').innerText = `$${salarioHora} USD`;
-
-            // Cálculo de horas recuperadas de forma anual (Optimizando un 80% de las tareas ineficientes en 52 semanas laborales)
-            const factorOptimizacion = 0.8;
-            const semanasAno = 52;
-            const horasAhorradasAnual = Math.round(horasSemanales * numeroColaboradores * semanasAno * factorOptimizacion);
-            document.getElementById('out-horas').innerText = horasAhorradasAnual.toLocaleString('es-ES');
-
-            // Cálculo del retorno financiero real
-            const ahorroNetoAnual = horasAhorradasAnual * salarioHora;
-            document.getElementById('out-dinero').innerText = `$${ahorroNetoAnual.toLocaleString('es-ES')} USD`;
-
-            // Cálculo de jornadas libres totales generadas (Días laborales completos de 8 horas)
-            const diasGanados = Math.round(horasAhorradasAnual / 8);
-            document.getElementById('out-dias').innerText = diasGanados;
-
-            // Actualización de datos colaterales descriptivos
-            document.getElementById('out-dias-libres').innerText = `${diasGanados} días de ineficiencia eliminada`;
-        }
-
-        // -------------------------------------------------------------
-        // ACTUALIZACIÓN DEL BRIEF DE PROYECTO EN VIVO
-        // -------------------------------------------------------------
-        function actualizarBrief() {
-            const negocio = document.getElementById('input-negocio').value.trim();
-            const herramientas = document.getElementById('input-herramientas').value.trim();
-            const problema = document.getElementById('input-problema').value.trim();
-            const nombre = document.getElementById('booking-name').value.trim();
-            const email = document.getElementById('booking-email').value.trim();
-            const fecha = document.getElementById('booking-date').value;
-            const hora = document.getElementById('booking-time').value;
-
-            document.getElementById('brief-negocio').innerText = negocio ? `"${negocio}"` : '"Esperando escritura..."';
-            document.getElementById('brief-herramientas').innerText = herramientas ? `"${herramientas}"` : '"Esperando..."';
-            document.getElementById('brief-problema').innerText = problema ? `"${problema}"` : '"Pendiente diagnóstico..."';
-            document.getElementById('brief-reunion').innerText = `"${fecha} a las ${hora} (100% Remoto)"`;
-            
-            if (nombre || email) {
-                document.getElementById('brief-representante').innerText = `"${nombre} <${email}>"`;
-            } else {
-                document.getElementById('brief-representante').innerText = '"Pendiente..."';
-            }
-        }
-
-        // -------------------------------------------------------------
-        // SISTEMA DE RESERVAS INTERACTIVO
-        // -------------------------------------------------------------
-        function completarReserva() {
-            const name = document.getElementById('booking-name').value.trim();
-            const email = document.getElementById('booking-email').value.trim();
-            const negocio = document.getElementById('input-negocio').value.trim();
-            const herramientas = document.getElementById('input-herramientas').value.trim();
-            const problema = document.getElementById('input-problema').value.trim();
-            
-            const dateVal = document.getElementById('booking-date').value;
-            const timeVal = document.getElementById('booking-time').value;
-
-            // Verificación sencilla sin recurrir a alertas intrusivas
-            if (!name || !email || !negocio || !herramientas || !problema) {
-                const btn = document.querySelector('#booking-stage-1 button');
-                const textOriginal = btn.innerText;
-                btn.innerText = "⚠ Por favor, completa todos los campos";
-                btn.classList.add('from-red-500', 'to-red-600');
-                
-                setTimeout(() => {
-                    btn.innerText = textOriginal;
-                    btn.classList.remove('from-red-500', 'to-red-600');
-                }, 2000);
-                return;
-            }
-
-            // Actualización de etiquetas en el mensaje final de éxito
-            document.getElementById('res-date').innerText = dateVal;
-            document.getElementById('res-time').innerText = timeVal;
-
-            // Transición animada de estado
-            document.getElementById('booking-stage-1').classList.add('hidden');
-            const stage2 = document.getElementById('booking-stage-2');
-            stage2.classList.remove('hidden');
-        }
-
-        // Inicializar el sistema al completarse la carga de la página
-        window.onload = function() {
-            actualizarCalculos();
-            actualizarLabVisual();
-            actualizarBrief();
-        };
-    </script>
+    <!-- CABECERA: Navegación de Alta Conversión -->
+    <header class="w-full bg-dark-deep/90 backdrop-blur-md border-b border-dark-border sticky top-0 z-50 px-6 py-4 lg:px-12">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            
+            <!-- Logotipo NEONia -->
+            <a href="#" class="flex items-center gap-3 group" aria-label="Volver al inicio">
+                <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-neon-cyan to-neon-magenta p-[1px]">
+                    <div class="h-full w-full bg-dark-deep rounded-[10px] flex items-center justify-center font-display font-black text-white text-md">
+                        N
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-white font-display font-bold text-lg tracking-wide leading-none group-hover:text-neon-cyan transition-colors">NEONia</span>
+                    <span class="text-[9px] text-zinc-400 font-bold tracking-widest uppercase mt-0.5">Estudio de Ingeniería</span>
+                </div>
+            </a>
+
+            <!-- Navegación de Arquitectura de Conversión -->
+            <nav class="hidden md:flex items-center space-x-8 text-xs font-bold uppercase tracking-wider" aria-label="Menú de navegación">
+                <a href="#enfoque" class="text-zinc-400 hover:text-white transition-colors">Nuestro Enfoque</a>
+                <a href="#lab" class="text-zinc-400 hover:text-neon-cyan transition-colors">Laboratorio Vivo</a>
+                <a href="#servicios" class="text-zinc-400 hover:text-white transition-colors">Servicios</a>
+                <a href="#calculadora" class="text-zinc-400 hover:text-neon-magenta transition-colors">Calculadora de Ahorro</a>
+            </nav>
+
+            <!-- CTA Cabecera -->
+            <div>
+                <a href="#reservas" class="bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold text-xs px-5 py-3.5 rounded-xl transition-all hover:opacity-90 inline-block shadow-cyan-glow">
+                    Agendar Diagnóstico Gratis
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HÉROE: Propuesta de Valor NLP con Hoja Tropical de Circuitos SVG Nativos -->
+        <section class="relative min-h-[90vh] flex items-center py-16 overflow-hidden">
+            
+            <!-- Luces de ambiente traseras -->
+            <div class="absolute -top-[10%] left-[10%] w-[450px] h-[450px] bg-neon-cyan/10 blur-[150px] rounded-full pointer-events-none"></div>
+            <div class="absolute bottom-[10%] right-[5%] w-[450px] h-[450px] bg-neon-magenta/10 blur-[150px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-6 lg:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                
+                <!-- Columna Izquierda: Copys de Alta Conversión PNL -->
+                <div class="lg:col-span-7 space-y-8 text-left z-10">
+                    <div class="inline-flex items-center gap-2 bg-neon-cyan/10 border border-neon-cyan/30 text-neon-cyan px-4 py-1.5 rounded-full text-xs font-bold tracking-wide">
+                        ✨ El tiempo no se recupera, la eficiencia de tu negocio sí
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-6xl font-display font-extrabold text-white leading-tight">
+                        Mira el orden de tu negocio.<br>
+                        <span class="text-gradient">Siente la calma de delegar.</span>
+                    </h1>
+                    
+                    <p class="text-lg text-zinc-300 leading-relaxed max-w-2xl">
+                        ¿Vives atrapado en una pantalla llena de pestañas, traspasando datos manualmente y enviando los mismos correos una y otra vez? En <strong>NEONia</strong> diseñamos flujos invisibles que automatizan tus tareas administrativas pesadas. Recuperas horas libres para dedicar al crecimiento estratégico de tu negocio.
+                    </p>
+
+                    <!-- Beneficios Rápidos Visualmente Premium -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 text-sm text-zinc-100 font-semibold">
+                        <div class="flex items-center gap-3">
+                            <div class="h-8 w-8 rounded-xl bg-neon-cyan/10 border border-neon-cyan/20 flex items-center justify-center text-neon-cyan">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <span>Recuperamos hasta 25 horas semanales</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="h-8 w-8 rounded-xl bg-neon-magenta/10 border border-neon-magenta/20 flex items-center justify-center text-neon-magenta">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                            </div>
+                            <span>Portales web y marcas listas en 3 días</span>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 flex flex-wrap gap-4">
+                        <a href="#lab" class="bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold px-8 py-4 rounded-xl shadow-magenta-glow hover:opacity-90 transform hover:-translate-y-0.5 transition-all text-sm">
+                            Probar Laboratorio en Vivo &darr;
+                        </a>
+                        <a href="#calculadora" class="bg-dark-card border border-dark-border hover:border-neon-cyan text-zinc-300 hover:text-white px-8 py-4 rounded-xl transition-all text-sm">
+                            Calcular Tu Retorno Financiero
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Ilustración Monstera Cybernética SVG de Alta Fidelidad -->
+                <div class="lg:col-span-5 relative z-10 flex justify-center">
+                    <div class="w-full max-w-[400px] aspect-square bg-dark-card/60 p-8 rounded-3xl border border-dark-border shadow-premium relative">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-dark-deep/40 rounded-3xl"></div>
+                        
+                        <!-- Monstera Cyber-Circuit Leaf SVG -->
+                        <svg viewBox="0 0 100 100" fill="none" class="w-full h-full relative z-10 filter drop-shadow-[0_0_15px_rgba(0,240,255,0.2)]">
+                            <!-- Silueta base de la hoja -->
+                            <path d="M50 5 C50 5, 80 15, 88 40 C95 60, 85 85, 50 95 C15 85, 5 60, 12 40 C20 15, 50 5, 50 5 Z" fill="#060b14" stroke="#1f2937" stroke-width="1" />
+                            
+                            <!-- Cortes tropicales de la Monstera -->
+                            <path d="M50 5 M50 20 C60 25, 75 22, 85 25 M50 35 C65 35, 78 40, 88 48 M50 50 C62 55, 70 70, 78 80 M50 20 C40 25, 25 22, 15 25 M50 35 C35 35, 22 40, 12 48 M50 50 C38 55, 30 70, 22 80" stroke="#101827" stroke-width="2" />
+                            
+                            <!-- Venas del circuito animadas -->
+                            <path d="M50 90 L50 25" stroke="#1f2937" stroke-width="2" stroke-linecap="round" />
+                            <path d="M50 25 L88 40" stroke="url(#cyan-magenta-grad)" stroke-width="1.5" class="circuit-line" stroke-linecap="round" />
+                            <path d="M50 45 L12 40" stroke="url(#cyan-magenta-grad)" stroke-width="1.5" class="circuit-line-delayed" stroke-linecap="round" />
+                            <path d="M50 60 L80 75" stroke="#00F0FF" stroke-width="1.5" class="circuit-line" stroke-linecap="round" />
+                            <path d="M50 75 L20 70" stroke="#FF007F" stroke-width="1.5" class="circuit-line-delayed" stroke-linecap="round" />
+
+                            <!-- Nodos de conexión brillantes -->
+                            <circle cx="50" cy="25" r="2.5" fill="#00F0FF" />
+                            <circle cx="88" cy="40" r="2.5" fill="#FF007F" />
+                            <circle cx="12" cy="40" r="2.5" fill="#00F0FF" />
+                            <circle cx="80" cy="75" r="2.5" fill="#FF007F" />
+                            <circle cx="20" cy="70" r="2.5" fill="#00F0FF" />
+                            <circle cx="50" cy="90" r="3" fill="#00F0FF" />
+
+                            <defs>
+                                <linearGradient id="cyan-magenta-grad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#00F0FF" />
+                                    <stop offset="100%" stop-color="#FF007F" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                        <!-- Panel de estatus de red flotante -->
+                        <div class="absolute bottom-4 left-4 right-4 bg-dark-deep/90 border border-dark-border p-3.5 rounded-xl flex items-center justify-between text-[10px] font-mono z-20">
+                            <span class="text-neon-cyan">SISTEMA_FLUX: ACTIVO</span>
+                            <span class="text-zinc-500">OPTIMIZACIÓN: 98%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ENFOQUE DE NEGOCIO: Remoto y Sin Reuniones Físicas -->
+        <section id="enfoque" class="py-24 bg-dark-card border-y border-dark-border relative">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    
+                    <div class="space-y-6">
+                        <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">NUESTRO ENFOQUE</span>
+                        <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white leading-tight">La tecnología debería trabajar para ti, no al revés.</h2>
+                        <p class="text-zinc-300 leading-relaxed text-sm sm:text-base">
+                            Entendemos que no necesitas saber qué es un "Webhook", una "API" o una "automatización cognitiva compleja". Lo que necesitas es que tu sistema de cobros notifique automáticamente a tu equipo, que las facturas se guarden ordenadamente solas y que tu página web cargue al instante para no perder ninguna venta.
+                        </p>
+                        <p class="text-zinc-300 leading-relaxed text-sm sm:text-base">
+                            En <strong>NEONia</strong> nos encargamos del trabajo complejo tras bambalinas para entregarte flujos limpios, listos para pulsar y con explicaciones en vídeos cortos y sencillos para que seas totalmente libre de operarlos.
+                        </p>
+                    </div>
+
+                    <!-- Ilustración de Flujo Tecnológico / Tarjetas Informativas -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="bg-dark-deep p-6 border border-dark-border rounded-2xl hover:border-neon-cyan/30 transition-all">
+                            <div class="text-2xl mb-3 text-neon-cyan">🚀</div>
+                            <h3 class="text-white font-bold mb-1">Sin Complicaciones</h3>
+                            <p class="text-xs text-zinc-400 leading-relaxed">Te entregamos sistemas que funcionan sin que tengas que aprender código complejo ni configuraciones confusas.</p>
+                        </div>
+                        
+                        <div class="bg-dark-deep p-6 border border-dark-border rounded-2xl hover:border-neon-magenta/30 transition-all">
+                            <div class="text-2xl mb-3 text-neon-magenta">⏱️</div>
+                            <h3 class="text-white font-bold mb-1">Velocidad Increíble</h3>
+                            <p class="text-xs text-zinc-400 leading-relaxed">Olvídate de agencias tradicionales que tardan meses en responder un correo. Creamos y lanzamos con rapidez.</p>
+                        </div>
+
+                        <!-- Tarjeta Informativa de No-Presencialidad de Alto Impacto -->
+                        <div class="bg-dark-deep p-6 border border-dark-border rounded-2xl hover:border-neon-cyan/30 transition-all sm:col-span-2 relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                                <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h2m4-3.5a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <span class="text-3xl mt-1 text-neon-cyan">🌍</span>
+                                <div>
+                                    <h3 class="text-white font-bold mb-1 text-sm sm:text-base">¿Reuniones físicas presenciales? Prescindimos de ellas</h3>
+                                    <p class="text-xs text-zinc-400 leading-relaxed">
+                                        Operamos de manera 100% remota con talento internacional distribuidos globalmente. No nos limitamos a la geografía del cliente. Al eliminar traslados presenciales ineficientes y burocracia de oficina, nos enfocamos por completo en construir software, entregando resultados con mayor rapidez y a un costo optimizado.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- LABORATORIO INTERACTIVO (Live Sandbox) con Diagrama de Conexión SVG -->
+        <section id="lab" class="py-24 bg-dark-deep relative">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                
+                <header class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                    <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">CONSTRUCCIÓN VIVA</span>
+                    <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white">Prueba Cómo Funciona un Flujo</h2>
+                    <p class="text-slate-400 text-sm">
+                        Selecciona qué evento quieres capturar y qué acción quieres automatizar para ver una simulación interactiva de nuestros sistemas en tiempo real.
+                    </p>
+                </header>
+
+                <!-- Contenedor del Lab interactivo -->
+                <div class="max-w-4xl mx-auto bg-dark-card p-8 rounded-2xl border border-dark-border shadow-premium space-y-8 relative overflow-hidden">
+                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-neon-cyan/5 blur-3xl rounded-full"></div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
+                        
+                        <!-- Paso 1 -->
+                        <div class="space-y-3">
+                            <label for="trigger-select" class="block text-xs font-bold text-neon-cyan tracking-wider uppercase">PASO 1: Cuando ocurra esto</label>
+                            <select id="trigger-select" class="w-full bg-dark-deep border border-dark-border hover:border-neon-cyan text-white text-xs p-4 rounded-xl outline-none transition-colors" onchange="actualizarLabVisual()">
+                                <option value="lead">Un nuevo cliente llena el formulario web</option>
+                                <option value="cobro">Se procesa un cobro de tarjeta con éxito</option>
+                                <option value="ticket">Sube un reporte de problema en soporte</option>
+                            </select>
+                        </div>
+
+                        <!-- Separador Visual / Diagrama de Integración SVG -->
+                        <div class="flex items-center justify-center">
+                            <div class="text-center w-full max-w-[120px] px-2">
+                                <span class="text-[9px] text-zinc-500 font-bold block mb-2 uppercase">Integración</span>
+                                <svg viewBox="0 0 100 30" fill="none" class="w-full h-8">
+                                    <path d="M5 15 C30 15, 30 5, 50 5 C70 5, 70 15, 95 15" stroke="#1f2937" stroke-width="1.5" />
+                                    <path d="M5 15 C30 15, 30 25, 50 25 C70 25, 70 15, 95 15" stroke="url(#cyan-magenta-grad)" stroke-width="1.5" stroke-dasharray="10" class="circuit-line" />
+                                    <circle cx="5" cy="15" r="3" fill="#00F0FF" />
+                                    <circle cx="50" cy="15" r="4" fill="#0B0F19" stroke="#FF007F" stroke-width="2" />
+                                    <circle cx="95" cy="15" r="3" fill="#FF007F" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Paso 2 -->
+                        <div class="space-y-3">
+                            <label id="action-label" for="action-select" class="block text-xs font-bold text-neon-magenta tracking-wider uppercase">PASO 2: Hacer esto automáticamente</label>
+                            <select id="action-select" class="w-full bg-dark-deep border border-dark-border hover:border-neon-magenta text-white text-xs p-4 rounded-xl outline-none transition-colors" onchange="actualizarLabVisual()">
+                                <option value="slack">Enviar alerta inmediata al chat del equipo</option>
+                                <option value="sheet">Añadir una fila ordenada en Google Sheets</option>
+                                <option value="email">Enviar email de bienvenida interactivo al cliente</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <!-- Consola de Simulación -->
+                    <div class="bg-dark-deep p-6 rounded-xl border border-dark-border space-y-4 relative z-10">
+                        <div class="flex justify-between items-center text-xs">
+                            <span class="font-bold text-white tracking-wide">MAPEO VISUAL DEL SISTEMA</span>
+                            <span class="text-[10px] text-neon-emerald bg-neon-emerald/10 px-2 py-0.5 rounded font-bold">ONLINE</span>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 py-4 font-mono text-xs">
+                            <div id="vis-trigger" class="px-5 py-3 bg-neon-cyan/10 border border-neon-cyan/30 text-neon-cyan font-bold rounded-xl">
+                                [ Formulario Web ]
+                            </div>
+                            <div class="text-slate-600 font-bold text-lg">&#10142;</div>
+                            <div class="px-5 py-3 bg-dark-card border border-dark-border text-white rounded-xl">
+                                Estructura de Datos
+                            </div>
+                            <div class="text-slate-600 font-bold text-lg">&#10142;</div>
+                            <div id="vis-action" class="px-5 py-3 bg-neon-magenta/10 border border-neon-magenta/30 text-neon-magenta font-bold rounded-xl">
+                                [ Alerta Chat ]
+                            </div>
+                        </div>
+
+                        <div class="text-center pt-2">
+                            <button onclick="dispararPulsoLab()" class="bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold px-8 py-3.5 rounded-xl text-xs tracking-wider uppercase hover:opacity-90 transition-all shadow-cyan-glow">
+                                ⚡ Disparar Simulación de Prueba
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Cuadro de Éxito en vivo -->
+                    <div id="success-sandbox" class="hidden bg-neon-emerald/10 border border-neon-emerald/20 p-4 rounded-xl flex items-center gap-3 text-xs text-neon-emerald transition-all">
+                        <span>🚀</span>
+                        <span><strong>¡Prueba completada en 0.02 segundos!</strong> El sistema ha procesado, formateado e insertado los datos de forma 100% autónoma.</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SERVICIOS: Tarjetas Comerciales Premium -->
+        <section id="servicios" class="py-24 bg-dark-card border-y border-dark-border relative">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                
+                <header class="text-center max-w-3xl mx-auto space-y-4 mb-20">
+                    <span class="text-neon-magenta text-xs font-bold tracking-widest uppercase bg-neon-magenta/10 border border-neon-magenta/20 px-4 py-1.5 rounded-full">CATÁLOGO DE VALOR</span>
+                    <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">Nuestras Dos Soluciones Claras</h2>
+                    <p class="text-zinc-400 text-sm">
+                        Sin tarifas ocultas ni contratos complejos de mantenimiento de por vida. Te ofrecemos soluciones listas para operar con precios transparentes y fijos.
+                    </p>
+                </header>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                    
+                    <!-- Paquete 1: Programa de Automatización Alpha -->
+                    <article class="bg-dark-deep p-8 rounded-3xl border border-dark-border hover:border-neon-cyan/50 transition-all duration-300 flex flex-col justify-between shadow-premium relative overflow-hidden group">
+                        <div class="absolute -bottom-10 -right-10 w-24 h-24 bg-neon-cyan/5 blur-2xl rounded-full group-hover:bg-neon-cyan/10 transition-colors"></div>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-2 text-neon-cyan">
+                                <span class="text-xl">⚙️</span>
+                                <span class="text-xs font-bold uppercase tracking-wider">PROGRAMA ALPHA</span>
+                            </div>
+                            <h3 class="text-2xl font-display font-extrabold text-white">Automatización de Procesos</h3>
+                            <p class="text-sm text-zinc-300 leading-relaxed">
+                                Diseñado para dueños de negocios y equipos agobiados por tareas manuales aburridas. Analizamos tus flujos de trabajo, configuramos las conexiones automáticas entre tus plataformas cotidianas y te entregamos vídeos cortos de formación muy fáciles de comprender para que manejes tu nuevo sistema sin depender de nadie.
+                            </p>
+                            
+                            <div class="space-y-4 pt-2">
+                                <h4 class="text-xs font-bold text-white uppercase tracking-wider">¿Qué vas a recibir exactamente?</h4>
+                                <ul class="space-y-2.5 text-xs text-zinc-300 font-semibold">
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-cyan text-sm">✓</span> 
+                                        <span>Conexión de tus aplicaciones clave (CRM, Calendarios, Notion, Emails)</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-cyan text-sm">✓</span> 
+                                        <span>Eliminación definitiva de transferencias manuales de archivos e información</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-cyan text-sm">✓</span> 
+                                        <span>Entrega garantizada en menos de 15 días laborables</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-cyan text-sm">✓</span> 
+                                        <span>Videotutoriales paso a paso creados en español claro para ti y tu equipo</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pt-8 mt-8 border-t border-dark-border flex flex-col sm:flex-row justify-between items-center gap-4">
+                            <div>
+                                <span class="text-[10px] text-zinc-500 uppercase block font-bold">Inversión única del paquete:</span>
+                                <span class="text-2xl font-display font-black text-white">$1,500 USD</span>
+                            </div>
+                            <a href="#reservas" class="bg-neon-cyan text-dark-deep font-extrabold text-xs px-6 py-3.5 rounded-xl hover:bg-white transition-colors">
+                                Quiero Automatizar Mi Negocio
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Paquete 2: Sprint de Lanzamiento Técnico Beta -->
+                    <article class="bg-dark-deep p-8 rounded-3xl border border-dark-border hover:border-neon-magenta/50 transition-all duration-300 flex flex-col justify-between shadow-premium relative overflow-hidden group">
+                        <div class="absolute -bottom-10 -right-10 w-24 h-24 bg-neon-magenta/5 blur-2xl rounded-full group-hover:bg-neon-magenta/10 transition-colors"></div>
+
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-2 text-neon-magenta">
+                                <span class="text-xl">⚡</span>
+                                <span class="text-xs font-bold uppercase tracking-wider">PROGRAMA BETA</span>
+                            </div>
+                            <h3 class="text-2xl font-display font-extrabold text-white">Sprint Técnico en 3 Días</h3>
+                            <p class="text-sm text-zinc-300 leading-relaxed">
+                                Olvídate de las agencias de desarrollo web tradicionales que tardan meses en entregarte un borrador y nunca finalizan el proyecto. Trabajamos de manera intensiva contigo durante un fin de semana para diseñar, maquetar, programar y lanzar tu plataforma digital, lista para cobrar clientes y capturar prospectos.
+                            </p>
+                            
+                            <div class="space-y-4 pt-2">
+                                <h4 class="text-xs font-bold text-white uppercase tracking-wider">¿Qué vas a recibir exactamente?</h4>
+                                <ul class="space-y-2.5 text-xs text-zinc-300 font-semibold">
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-magenta text-sm">✓</span> 
+                                        <span>Diseño visual premium e identidad web de alta velocidad</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-magenta text-sm">✓</span> 
+                                        <span>Estructura optimizada para motores de búsqueda nativa (SEO Semántico)</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-magenta text-sm">✓</span> 
+                                        <span>Pasarela de pago conectada (Stripe, Paypal) y agendador automático</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-neon-magenta text-sm">✓</span> 
+                                        <span>1 hora de capacitación en directo para gestionar tu nueva web de por vida</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pt-8 mt-8 border-t border-dark-border flex flex-col sm:flex-row justify-between items-center gap-4">
+                            <div>
+                                <span class="text-[10px] text-zinc-500 uppercase block font-bold">Inversión única del Sprint:</span>
+                                <span class="text-2xl font-display font-black text-white">$3,000 USD</span>
+                            </div>
+                            <a href="#reservas" class="bg-neon-magenta text-white font-extrabold text-xs px-6 py-3.5 rounded-xl hover:bg-white hover:text-dark-deep transition-all">
+                                Lanzar Mi Plataforma Ya
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CALCULADORA DE AHORRO CON ENTRADA DE SALARIO DINÁMICO -->
+        <section id="calculadora" class="py-24 bg-dark-deep relative">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                
+                <header class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">AUDITORÍA ECONÓMICA</span>
+                    <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">Calcula el Coste de tu Burocracia Manual</h2>
+                    <p class="text-slate-400 text-sm">
+                        Ajusta los sliders según la cantidad de tareas repetitivas de tu equipo para ver la cantidad exacta de tiempo libre y dinero que recuperas anualmente con un flujo automatizado.
+                    </p>
+                </header>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+                    
+                    <!-- Entrada de datos (Sliders) -->
+                    <div class="lg:col-span-5 bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between space-y-8 shadow-premium">
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-display flex items-center gap-2">
+                                <span>📊</span> Datos Operativos Reales
+                            </h3>
+                        </div>
+
+                        <div class="space-y-6">
+                            <!-- Slider 1 -->
+                            <div class="space-y-3">
+                                <div class="flex justify-between text-xs font-bold">
+                                    <span class="text-slate-300 uppercase">Horas repetitivas semanales por persona</span>
+                                    <span id="label-horas" class="text-neon-cyan font-bold">15 Horas</span>
+                                </div>
+                                <input 
+                                    type="range" 
+                                    id="input-horas" 
+                                    min="5" 
+                                    max="40" 
+                                    value="15" 
+                                    class="w-full animate-pulse-once"
+                                    oninput="actualizarCalculos()"
+                                >
+                                <span class="text-[10px] text-zinc-500 block leading-normal">Tiempo total semanal invertido copiando correos, organizando hojas de cálculo, etc.</span>
+                            </div>
+
+                            <!-- Slider 2 -->
+                            <div class="space-y-3">
+                                <div class="flex justify-between text-xs font-bold">
+                                    <span class="text-slate-300 uppercase">Cantidad de personas en tu equipo</span>
+                                    <span id="label-colaboradores" class="text-neon-cyan font-bold">3 Personas</span>
+                                </div>
+                                <input 
+                                    type="range" 
+                                    id="input-colaboradores" 
+                                    min="1" 
+                                    max="20" 
+                                    value="3" 
+                                    class="w-full"
+                                    oninput="actualizarCalculos()"
+                                >
+                            </div>
+
+                            <!-- Slider 3 de Costo de Salario por Hora Dinámico -->
+                            <div class="space-y-3">
+                                <div class="flex justify-between text-xs font-bold">
+                                    <span class="text-slate-300 uppercase">Costo de salario por hora promedio</span>
+                                    <span id="label-coste" class="text-premium-purple font-bold">$18 USD</span>
+                                </div>
+                                <input 
+                                    type="range" 
+                                    id="input-coste" 
+                                    min="10" 
+                                    max="150" 
+                                    value="18" 
+                                    class="w-full"
+                                    oninput="actualizarCalculos()"
+                                >
+                                <span class="text-[10px] text-zinc-500 block leading-normal">El salario promedio por hora de los miembros del equipo involucrados en estas tareas.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloques de Resultados de Ahorros -->
+                    <div class="lg:col-span-7 flex flex-col justify-between gap-6">
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 flex-grow">
+                            
+                            <!-- Caja 1 -->
+                            <div class="bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between shadow-premium relative overflow-hidden">
+                                <div class="space-y-2">
+                                    <span class="text-xs font-bold text-neon-cyan tracking-wider block uppercase">Capacidad Recuperada (Anual)</span>
+                                    <div class="flex items-baseline gap-2">
+                                        <span class="text-5xl font-display font-black text-white" id="out-horas">0</span>
+                                        <span class="text-sm text-neon-cyan font-bold">Horas</span>
+                                    </div>
+                                    <p class="text-xs text-zinc-400 leading-relaxed mt-2">
+                                        Tiempo devuelto a tus colaboradores para que se dediquen de lleno a aportar valor y mejorar ventas.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Caja 2 -->
+                            <div class="bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between shadow-premium relative overflow-hidden">
+                                <div class="space-y-2">
+                                    <span class="text-xs font-bold text-neon-magenta tracking-wider block uppercase">Ahorro Financiero Neto</span>
+                                    <span class="text-4xl font-display font-black text-white" id="out-dinero">$0 USD</span>
+                                    <p class="text-xs text-zinc-400 leading-relaxed mt-2">
+                                        Capital recuperado al eliminar el pago de salarios invertidos puramente en tareas redundantes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Caja 3 -->
+                            <div class="bg-dark-card p-8 rounded-3xl border border-dark-border flex flex-col justify-between col-span-1 sm:col-span-2 shadow-premium">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                                    <div class="space-y-3">
+                                        <span class="text-xs font-bold text-neon-emerald tracking-wider block uppercase">TIEMPO EXTRA CREADO</span>
+                                        <div class="flex items-baseline gap-2">
+                                            <span class="text-5xl font-display font-black text-white" id="out-dias">0</span>
+                                            <span class="text-sm text-neon-emerald font-bold">Días Libres Ganados</span>
+                                        </div>
+                                        <p class="text-xs text-zinc-400 leading-relaxed">
+                                            Equivalente a jornadas laborales completas de 8 horas recuperadas en el negocio de manera anual.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="bg-dark-deep p-4 rounded-xl border border-dark-border text-xs space-y-2 font-semibold">
+                                        <span class="text-white block font-bold mb-1">PROYECCIÓN ESTRATÉGICA:</span>
+                                        <div class="flex items-center justify-between">
+                                            <span class="text-zinc-400">Eficiencia en flujo:</span>
+                                            <span class="text-neon-cyan font-bold">+85% de fluidez</span>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <span class="text-zinc-400">Time-to-market ganado:</span>
+                                            <span class="text-neon-magenta font-bold" id="out-dias-libres">17 días menos</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SISTEMA DE RESERVAS INTERACTIVO (Formulario con Consola de Proyecto en Vivo) -->
+        <section id="reservas" class="py-24 bg-dark-card border-y border-dark-border relative">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                
+                <header class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-neon-cyan text-xs font-bold tracking-widest uppercase bg-neon-cyan/10 border border-neon-cyan/20 px-4 py-1.5 rounded-full">PLANIFICACIÓN ÁGIL</span>
+                    <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white">¿Listo para dar el siguiente paso?</h2>
+                    <p class="text-zinc-400 text-sm">
+                        Cuéntanos lo que quieres solucionar. El sistema compilará tu brief técnico de manera inmediata para diseñar tu propuesta preliminar antes de nuestra llamada.
+                    </p>
+                </header>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+                    
+                    <!-- Formulario Unificado de Diagnóstico (Columna Izquierda) -->
+                    <div class="lg:col-span-7 bg-dark-deep p-8 rounded-3xl border border-dark-border shadow-premium relative flex flex-col justify-between">
+                        
+                        <div id="booking-stage-1" class="space-y-6">
+                            <div class="border-b border-dark-border pb-4">
+                                <h3 class="text-lg font-bold text-white font-display">Ingresa los datos de tu Proyecto</h3>
+                                <p class="text-xs text-zinc-400">Reuniones 100% remotas y asíncronas para optimizar tu tiempo (Zona Horaria: Panamá GMT-5)</p>
+                            </div>
+
+                            <!-- PASO 1: Diagnóstico de Operaciones (Escritura Libre) -->
+                            <div class="space-y-4">
+                                <h4 class="text-xs font-bold text-neon-cyan uppercase tracking-wider font-mono">01. Sobre tu negocio</h4>
+                                
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="space-y-2">
+                                        <label for="input-negocio" class="block text-xs font-bold text-zinc-400">¿A qué se dedica tu negocio?</label>
+                                        <input id="input-negocio" type="text" placeholder="Ej: Tienda online de café, Consultora de leyes..." class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <label for="input-herramientas" class="block text-xs font-bold text-zinc-400">¿Qué herramientas usan cotidianamente?</label>
+                                        <input id="input-herramientas" type="text" placeholder="Ej: Excel, Slack, WhatsApp, Notion..." class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
+                                    </div>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <label for="input-problema" class="block text-xs font-bold text-zinc-400">¿Qué problema o proceso repetitivo quieres automatizar o solucionar?</label>
+                                    <textarea id="input-problema" rows="2" placeholder="Ej: Perdemos 10 horas semanales copiando datos de clientes a un Excel..." class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan resize-none transition-colors" oninput="actualizarBrief()"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- PASO 2: Contacto y Agenda -->
+                            <div class="space-y-4 pt-2 border-t border-dark-border/40">
+                                <h4 class="text-xs font-bold text-neon-magenta uppercase tracking-wider font-mono">02. Datos de Contacto y Reserva</h4>
+                                
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="space-y-2">
+                                        <label for="booking-name" class="block text-xs font-bold text-zinc-400">Nombre Completo</label>
+                                        <input id="booking-name" type="text" placeholder="Tu nombre" class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <label for="booking-email" class="block text-xs font-bold text-zinc-400">Correo Electrónico de Negocios</label>
+                                        <input id="booking-email" type="email" placeholder="nombre@empresa.com" class="w-full bg-dark-card border border-dark-border text-white text-xs p-4 rounded-xl outline-none focus:border-neon-cyan transition-colors" oninput="actualizarBrief()">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <!-- Selector de Fecha -->
+                                    <div class="space-y-2">
+                                        <label for="booking-date" class="block text-xs font-bold text-zinc-400 uppercase">Elegir Día</label>
+                                        <select id="booking-date" class="w-full bg-dark-card border border-dark-border text-white text-xs p-3.5 rounded-xl outline-none focus:border-neon-cyan" onchange="actualizarBrief()">
+                                            <option value="Lunes 20 de Julio">Lunes 20 de Julio, 2026</option>
+                                            <option value="Martes 21 de Julio">Martes 21 de Julio, 2026</option>
+                                            <option value="Miércoles 22 de Julio">Miércoles 22 de Julio, 2026</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Selector de Hora -->
+                                    <div class="space-y-2">
+                                        <label for="booking-time" class="block text-xs font-bold text-zinc-400 uppercase">Elegir Horario</label>
+                                        <select id="booking-time" class="w-full bg-dark-card border border-dark-border text-white text-xs p-3.5 rounded-xl outline-none focus:border-neon-cyan" onchange="actualizarBrief()">
+                                            <option value="10:00 AM">10:00 AM (GMT-5)</option>
+                                            <option value="11:30 AM">11:30 AM (GMT-5)</option>
+                                            <option value="03:00 PM">03:00 PM (GMT-5)</option>
+                                            <option value="04:30 PM">04:30 PM (GMT-5)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Botón de Envío -->
+                            <div class="pt-2">
+                                <button onclick="completarReserva()" class="w-full bg-gradient-to-r from-neon-cyan to-neon-magenta text-dark-deep font-extrabold py-4 rounded-xl text-xs tracking-wider uppercase hover:opacity-90 transition-all shadow-cyan-glow">
+                                    Confirmar Mi Espacio de Diagnóstico
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Mensaje de Éxito de la Reserva -->
+                        <div id="booking-stage-2" class="hidden text-center py-12 space-y-6 flex-grow flex flex-col justify-center items-center">
+                            <div class="h-16 w-16 bg-neon-emerald/10 border border-neon-emerald/30 text-neon-emerald text-3xl flex items-center justify-center rounded-full animate-bounce">
+                                ✓
+                            </div>
+                            <div class="space-y-2">
+                                <h3 class="text-2xl font-bold font-display text-white">¡Llamada Agendada con Éxito!</h3>
+                                <p class="text-xs text-slate-400 max-w-sm mx-auto leading-relaxed">
+                                    Hemos reservado tu espacio para el <strong id="res-date" class="text-white"></strong> a las <strong id="res-time" class="text-white"></strong>. Te hemos enviado un correo de confirmación de manera automatizada.
+                                </p>
+                            </div>
+                            <div class="bg-dark-card p-4 rounded-xl border border-dark-border text-xs text-slate-400 max-w-xs mx-auto font-mono">
+                                SISTEMA AUTO-BOOKING: OK
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Consola Virtual: Ficha Técnica compilada en tiempo real (Columna Derecha) -->
+                    <div class="lg:col-span-5 bg-dark-deep p-8 rounded-3xl border border-dark-border flex flex-col justify-between shadow-premium relative min-h-[480px]">
+                        <div class="absolute -top-10 -left-10 w-24 h-24 bg-neon-cyan/5 blur-2xl rounded-full"></div>
+                        
+                        <div class="space-y-4 relative z-10 w-full font-mono text-xs">
+                            <div class="flex justify-between items-center border-b border-dark-border pb-3">
+                                <div class="flex items-center gap-2">
+                                    <span class="h-2 w-2 rounded-full bg-neon-cyan animate-pulse"></span>
+                                    <span class="text-xs font-bold text-white uppercase tracking-wider">PROYECTO_DRAFT.json</span>
+                                </div>
+                                <span class="text-[9px] text-neon-cyan bg-neon-cyan/10 px-2 py-0.5 rounded font-bold">COMPILANDO...</span>
+                            </div>
+
+                            <!-- Bloque de Código JSON Autogenerado en tiempo real con alta legibilidad -->
+                            <div class="bg-dark-card p-6 rounded-2xl border border-dark-border space-y-3 leading-relaxed text-zinc-300 overflow-x-auto select-none">
+                                <p class="text-zinc-500 font-bold">{</p>
+                                <p class="pl-4">
+                                    <span class="text-neon-cyan">"negocio_origen"</span>: <span id="brief-negocio" class="text-neon-magenta">"Esperando escritura..."</span>,
+                                </p>
+                                <p class="pl-4">
+                                    <span class="text-neon-cyan">"herramientas_actuales"</span>: <span id="brief-herramientas" class="text-neon-magenta">"Esperando..."</span>,
+                                </p>
+                                <p class="pl-4">
+                                    <span class="text-neon-cyan">"problema_critico"</span>: <span id="brief-problema" class="text-neon-magenta font-semibold">"Pendiente diagnóstico..."</span>,
+                                </p>
+                                <p class="pl-4">
+                                    <span class="text-neon-cyan">"representante"</span>: <span id="brief-representante" class="text-white">"Pendiente..."</span>,
+                                </p>
+                                <p class="pl-4">
+                                    <span class="text-neon-cyan">"reunion_agendada"</span>: <span id="brief-reunion" class="text-neon-emerald">"Lunes 20 de Julio - 10:00 AM (100% Remoto)"</span>,
+                                </p>
+                                <p class="pl-4">
+                                    <span class="text-neon-cyan">"formato_reunion"</span>: <span class="text-white">"100% Remoto (Sin visitas físicas)"</span>
+                                </p>
+                                <p class="text-zinc-500 font-bold">}</p>
+                            </div>
+                        </div>
+
+                        <!-- Cuadro explicativo de valor técnico -->
+                        <div class="bg-dark-card p-4 rounded-xl border border-dark-border text-[10px] text-zinc-400 font-mono leading-relaxed relative z-10">
+                            <span class="text-neon-magenta font-bold block mb-1">&gt; METODOLOGÍA ASÍNCRONA</span>
+                            Con los parámetros de arriba, nuestro equipo de ingeniería diseñará un prototipo preliminar antes de darte el primer "hola". Aprovechamos cada segundo.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA GLOBAL -->
+    <footer class="w-full bg-dark-deep border-t border-dark-border py-16 px-6 lg:px-12 text-sm text-zinc-500">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
+            
+            <div class="md:col-span-5 space-y-4">
+                <span class="text-lg font-display font-bold text-white tracking-wide">NEONia</span>
+                <p class="leading-relaxed text-xs text-zinc-400 max-w-sm">
+                    Estudio de ingeniería de procesos de alta gama. Automatizamos el trabajo manual e ineficiente y creamos portales web ultra ágiles para negocios en crecimiento de forma 100% remota.
+                </p>
+            </div>
+
+            <div class="md:col-span-3 space-y-3">
+                <span class="text-white font-bold text-xs tracking-wider uppercase block">// SERVICIOS</span>
+                <ul class="space-y-2 text-xs text-zinc-400 font-semibold">
+                    <li><a href="#servicios" class="hover:text-neon-cyan">Programa Alpha: Automatización</a></li>
+                    <li><a href="#servicios" class="hover:text-neon-magenta">Programa Beta: Sprints en 3 Días</a></li>
+                    <li><a href="#calculadora" class="hover:text-neon-cyan">Calculadora de Impacto</a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-4 space-y-4 text-xs font-semibold">
+                <span class="text-white font-bold tracking-wider uppercase block">// COMUNICACIÓN GLOBAL</span>
+                <p class="text-zinc-400 leading-relaxed">Operamos de manera 100% remota con ingenieros en múltiples husos horarios internacionales. Escríbenos directamente a <a href="mailto:proyectos@neonia.io" class="text-neon-cyan hover:underline font-bold">proyectos@neonia.io</a>.</p>
+                <div class="text-[10px] text-zinc-500 uppercase tracking-widest bg-dark-card inline-block px-3 py-1 border border-dark-border rounded-md">STATUS: ONLINE</div>
+            </div>
+
+            <div class="md:col-span-12 border-t border-dark-border pt-8 text-center text-[10px] text-zinc-600 font-semibold uppercase tracking-wider">
+                &copy; 2026 NEONia. Construcción impecable libre de relleno corporativo tradicional. Todos los derechos reservados.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- LÓGICA DE PROGRAMACIÓN DE LA SPA -->
+    <script>
+        // -------------------------------------------------------------
+        // LABORATORIO INTERACTIVO VIVO
+        // -------------------------------------------------------------
+        function actualizarLabVisual() {
+            const triggerVal = document.getElementById('trigger-select').value;
+            const actionVal = document.getElementById('action-select').value;
+
+            const visTrigger = document.getElementById('vis-trigger');
+            const visAction = document.getElementById('vis-action');
+
+            const visualTriggers = {
+                lead: '[ Formulario Web ]',
+                cobro: '[ Pago Exitoso ]',
+                ticket: '[ Nuevo Ticket ]'
+            };
+
+            const visualActions = {
+                slack: '[ Alerta Chat ]',
+                sheet: '[ Fila Sheets ]',
+                email: '[ Email Cliente ]'
+            };
+
+            visTrigger.innerText = visualTriggers[triggerVal];
+            visAction.innerText = visualActions[actionVal];
+
+            // Esconder la confirmación en caso de que se realicen cambios para invitar a disparar nuevamente
+            document.getElementById('success-sandbox').classList.add('hidden');
+        }
+
+        // Pulse Effect
+        function dispararPulsoLab() {
+            const successBox = document.getElementById('success-sandbox');
+            successBox.classList.remove('hidden');
+
+            const visTrigger = document.getElementById('vis-trigger');
+            const visAction = document.getElementById('vis-action');
+
+            visTrigger.classList.add('animate-ping');
+            visAction.classList.add('animate-ping');
+
+            setTimeout(() => {
+                visTrigger.classList.remove('animate-ping');
+                visAction.classList.remove('animate-ping');
+            }, 600);
+        }
+
+        // -------------------------------------------------------------
+        // CALCULADORA DE RETORNO ECONÓMICO (Dinámico con control de salario)
+        // -------------------------------------------------------------
+        function actualizarCalculos() {
+            const horasSemanales = parseInt(document.getElementById('input-horas').value);
+            const numeroColaboradores = parseInt(document.getElementById('input-colaboradores').value);
+            const salarioHora = parseInt(document.getElementById('input-coste').value);
+
+            // Actualización de etiquetas visibles
+            document.getElementById('label-horas').innerText = `${horasSemanales} Horas`;
+            document.getElementById('label-colaboradores').innerText = `${numeroColaboradores} ${numeroColaboradores === 1 ? 'Persona' : 'Personas'}`;
+            document.getElementById('label-coste').innerText = `$${salarioHora} USD`;
+
+            // Cálculo de horas recuperadas de forma anual (Optimizando un 80% de las tareas ineficientes en 52 semanas laborales)
+            const factorOptimizacion = 0.8;
+            const semanasAno = 52;
+            const horasAhorradasAnual = Math.round(horasSemanales * numeroColaboradores * semanasAno * factorOptimizacion);
+            document.getElementById('out-horas').innerText = horasAhorradasAnual.toLocaleString('es-ES');
+
+            // Cálculo del retorno financiero real
+            const ahorroNetoAnual = horasAhorradasAnual * salarioHora;
+            document.getElementById('out-dinero').innerText = `$${ahorroNetoAnual.toLocaleString('es-ES')} USD`;
+
+            // Cálculo de jornadas libres totales generadas (Días laborales completos de 8 horas)
+            const diasGanados = Math.round(horasAhorradasAnual / 8);
+            document.getElementById('out-dias').innerText = diasGanados;
+
+            // Actualización de datos colaterales descriptivos
+            document.getElementById('out-dias-libres').innerText = `${diasGanados} días de ineficiencia eliminada`;
+        }
+
+        // -------------------------------------------------------------
+        // ACTUALIZACIÓN DEL BRIEF DE PROYECTO EN VIVO
+        // -------------------------------------------------------------
+        function actualizarBrief() {
+            const negocio = document.getElementById('input-negocio').value.trim();
+            const herramientas = document.getElementById('input-herramientas').value.trim();
+            const problema = document.getElementById('input-problema').value.trim();
+            const nombre = document.getElementById('booking-name').value.trim();
+            const email = document.getElementById('booking-email').value.trim();
+            const fecha = document.getElementById('booking-date').value;
+            const hora = document.getElementById('booking-time').value;
+
+            document.getElementById('brief-negocio').innerText = negocio ? `"${negocio}"` : '"Esperando escritura..."';
+            document.getElementById('brief-herramientas').innerText = herramientas ? `"${herramientas}"` : '"Esperando..."';
+            document.getElementById('brief-problema').innerText = problema ? `"${problema}"` : '"Pendiente diagnóstico..."';
+            document.getElementById('brief-reunion').innerText = `"${fecha} a las ${hora} (100% Remoto)"`;
+            
+            if (nombre || email) {
+                document.getElementById('brief-representante').innerText = `"${nombre} <${email}>"`;
+            } else {
+                document.getElementById('brief-representante').innerText = '"Pendiente..."';
+            }
+        }
+
+        // -------------------------------------------------------------
+        // SISTEMA DE RESERVAS INTERACTIVO
+        // -------------------------------------------------------------
+        function completarReserva() {
+            const name = document.getElementById('booking-name').value.trim();
+            const email = document.getElementById('booking-email').value.trim();
+            const negocio = document.getElementById('input-negocio').value.trim();
+            const herramientas = document.getElementById('input-herramientas').value.trim();
+            const problema = document.getElementById('input-problema').value.trim();
+            
+            const dateVal = document.getElementById('booking-date').value;
+            const timeVal = document.getElementById('booking-time').value;
+
+            // Verificación sencilla sin recurrir a alertas intrusivas
+            if (!name || !email || !negocio || !herramientas || !problema) {
+                const btn = document.querySelector('#booking-stage-1 button');
+                const textOriginal = btn.innerText;
+                btn.innerText = "⚠ Por favor, completa todos los campos";
+                btn.classList.add('from-red-500', 'to-red-600');
+                
+                setTimeout(() => {
+                    btn.innerText = textOriginal;
+                    btn.classList.remove('from-red-500', 'to-red-600');
+                }, 2000);
+                return;
+            }
+
+            // Actualización de etiquetas en el mensaje final de éxito
+            document.getElementById('res-date').innerText = dateVal;
+            document.getElementById('res-time').innerText = timeVal;
+
+            // Transición animada de estado
+            document.getElementById('booking-stage-1').classList.add('hidden');
+            const stage2 = document.getElementById('booking-stage-2');
+            stage2.classList.remove('hidden');
+        }
+
+        // Inicializar el sistema al completarse la carga de la página
+        window.onload = function() {
+            actualizarCalculos();
+            actualizarLabVisual();
+            actualizarBrief();
+        };
+    </script>
 </body>
 </html>
